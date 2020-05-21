@@ -1,0 +1,135 @@
+/*Geral*/
+:root
+{
+    --white: #ffffff;
+    --black: #071013;
+    --gray: #C4C4C4;
+    --graytransparent: rgb(0,0,0,0.1);
+}
+
+body
+{
+    background-color: var(--gray);
+}
+
+.text-black
+{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.bg-secondary
+{
+    background-color: var(--graytransparent) !important;
+}
+
+/*Menu*/
+.logo
+{
+    width: 60px;
+    height: 60px;
+}
+
+.logotipo
+{
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-dark
+{
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 18px;
+}
+
+.navbar-toggler
+{
+    color: var(--gray) !important;
+    outline: none !important;
+    border: none;
+}
+
+.nav-active
+{
+    border-bottom: 1px solid var(--gray);
+}
+
+.nav-icon
+{
+    text-decoration: none !important;
+    color: var(--yellow);
+}
+
+.nav-icon:hover
+{
+    color: var(--gray);
+}
+
+.navbar-light
+{
+    background-color: var(--white);
+}
+
+/*Banner*/
+.banner
+{
+    background-image: linear-gradient(rgb(255,255,255,0.5), rgb(255,255,255,0.5)), url('./Imagens/Relogio.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner-lg
+{
+    min-height: calc(100vh - 86px);
+    
+}
+
+.banner-sm
+{
+    min-height: 30vh;
+}
+
+/*Produtos*/
+.produto
+{
+    background-color: #C4C4C4;
+    font-size: 18px;
+    width: 100%;
+}
+
+.produto h3
+{
+    font-size: 19px;
+}
+
+p
+{
+    font-size: 18px;
+}
+
+.texto
+{
+    font-size: 22px;
+}
+
+/*Footer*/
+footer
+{
+    background-color: black;
+    color: white;
+}
+
+a
+{
+    color: inherit;
+}
+
+a:hover
+{
+    color: gray;
+}
