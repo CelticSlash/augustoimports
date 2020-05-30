@@ -3,8 +3,8 @@
 {
     --white: #ffffff;
     --black: #071013;
-    --gray: #C4C4C4;
-    --graytransparent: rgb(0,0,0,0.1);
+    --gray: #3D3D3D;
+    --graytransparent: rgba(255, 255, 255, 0.1);
 }
 
 body
@@ -15,6 +15,13 @@ body
 .text-black
 {
     color: var(--black);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text-white-bold
+{
+    color: var(--white);
     font-weight: bold;
     font-size: 25px;
 }
