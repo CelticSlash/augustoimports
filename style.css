@@ -59,22 +59,6 @@ body
     border: none;
 }
 
-.nav-active
-{
-    border-bottom: 1px solid var(--gray);
-}
-
-.nav-icon
-{
-    text-decoration: none !important;
-    color: var(--yellow);
-}
-
-.nav-icon:hover
-{
-    color: var(--gray);
-}
-
 .navbar-light
 {
     background-color: var(--white);
